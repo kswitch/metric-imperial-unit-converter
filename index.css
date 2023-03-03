@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background-color: rgb(229, 242, 235);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: auto;
+    margin-top: 1.875rem;
+    max-width: 31.25rem;
+    border: 5px solid white;
+    border-radius: 1.25rem;
+    box-shadow: 2px 2px 0.625rem ;
+}
+
+.content {
+    height: inherit;
+    border: 1px dashed grey;
+    border-radius: 15px;
+}
+
+#top {
+    background-color: rgb(129,0,255);
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    padding-top: 0.3125rem;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+
+}
+#number-input {
+    background-color: inherit;
+    width: 6.25rem;
+    height: auto;
+    color: white;
+    text-align: center;
+    font-size: 3.125rem;
+    font-weight: bolder;
+    border: 1px solid white;
+    border-radius: 0.3125rem;
+    padding: 0.3125rem 1.875rem;
+}
+
+#convert-btn {
+    color: rgb(113,113,113);
+    background-color: white;
+    height: 42px;
+    font-size: large;
+    margin: 20px auto 35px auto ;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 22px;
+}
+
+#convert-btn:hover {
+    border-style: inset;
+}
+
+#convert-btn:active {
+    border-style: ridge;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(109,97,133);
+    justify-content: space-around;
+    background-color: rgb(245,245,245);
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+.results {
+    height: auto;
+    width: 90%;
+    background-color:rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 1.25rem auto auto auto;
+    border-radius: 0.3125rem;
+}
+
+
+.bottom #mass-conversion {
+    margin-bottom: 2.5rem;
+}
+
+.converted-results {
+    font-weight: normal;
+    font-size: 0.9375rem;
+    color: rgb(106,106,106); 
+}
